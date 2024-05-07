@@ -17,19 +17,16 @@ int main() {
         for (int j = 0; j < 4; ++j) {
             std::cin >> B_matrix[i][j];
             assert(B_matrix[i][j] == A_matrix[i][j]);
+        } 
+    }
+
+    for (int i = 0; i < 4; ++i) {
+        for (int j = 0; j < 4; ++j) {
             if(i != j) {
                 A_matrix[i][j] = 0;
             }
         } 
     }
-
-    // for (int i = 0; i < 4; ++i) {
-    //     for (int j = 0; j < 4; ++j) {
-    //         if(i != j) {
-    //             A_matrix[i][j] = 0;
-    //         }
-    //     } 
-    // }
 
     std::cout << "\nMatrices are equal. Transforming matrix A into a diagonal matrix:\n";
     for (int i = 0; i < 4; ++i) {

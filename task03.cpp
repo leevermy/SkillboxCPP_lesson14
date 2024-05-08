@@ -28,7 +28,7 @@ int main() {
         } 
     }
 
-    std::cout << "\nMatrices are equal. Transforming matrix A into a diagonal matrix:\n";
+    std::cout << "Matrices are equal. Transforming matrix A into a diagonal matrix:\n";
     for (int i = 0; i < 4; ++i) {
         bool is_space = false;
         for (int j = 0; j < 4; ++j) {

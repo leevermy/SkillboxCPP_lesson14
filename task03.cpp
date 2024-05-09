@@ -2,6 +2,7 @@
 #include <cassert>
 
 int main() {
+    std::cout << "Task about comparing matrices\n" << std::endl;
     int A_matrix[4][4];
     int B_matrix[4][4];
 

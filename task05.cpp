@@ -6,6 +6,7 @@ void InputAndValidation(int& y, int& x);
 void BurstAndCount(bool package[][12], const int& y1, const int& x1, const int& y2, const int& x2, int& bursted_cnt);
 
 int main() {
+    std::cout << "Task about bursting package\n" << std::endl;
     bool package[12][12];
     FillPackage(package);
 

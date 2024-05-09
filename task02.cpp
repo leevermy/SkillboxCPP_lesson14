@@ -7,6 +7,7 @@ void Input(int & coordinate);
 bool CheckWinner(char field[][3], const int& y, const int& x);
 
 int main() {
+  std::cout << "Task about \"Tic Tac Toe\" game\n" << std::endl;
   char field[3][3];
   FillField(field);
 

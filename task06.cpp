@@ -4,6 +4,7 @@ void FillSnake(int snake[][5]);
 void PrintSnake(int snake[][5]);
 
 int main() {
+    std::cout << "Task about filling array in a snake style\n" << std::endl;
     int snake[5][5];
     FillSnake(snake);
     PrintSnake(snake);

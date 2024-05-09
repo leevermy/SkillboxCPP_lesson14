@@ -2,6 +2,7 @@
 #include <vector>
 
 int main() {
+    std::cout << "Task about multiplying matrix with vector\n" << std::endl;
     float A_matrix[4][4];
 
     std::cout << "Enter matrix A(4x4):\n";

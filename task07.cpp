@@ -4,6 +4,7 @@ void FillLandscape(int landscape[][5][10]);
 int InputFromUser();
 
 int main() {
+    std::cout << "Task about slicing landscape\n" << std::endl;
     int landscape[5][5][10]= {0};
     FillLandscape(landscape);
     
